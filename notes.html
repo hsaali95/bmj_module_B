@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Notes App</title>
+</head>
+<body>
+    <h1 id="heading1">My Notes</h1>
+    <div>
+        <div class="container">
+            <input type="text" name="" id="todo-title" placeholder="Enter your title"><br><br>
+            <input type="text" name="" id="todo-description" placeholder="Enter your description"><br><br>
+            <button onclick="addItems()">Add items</button>
+            <button onclick="deletAllItems()">Delete all</button>
+        </div>
+    </div>
+
+    <!-- <div>
+        <input type="text" name="" id="todo-description" placeholder="Enter your description">
+    </div> -->
+
+    <div class="container2">
+        <ul id="items">
+
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
